@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="240" viewBox="0 0 1040 240" role="img" aria-labelledby="title desc">
+  <title id="title">SolarSpin Technologies reversed logo</title>
+  <desc id="desc">The SolarSpin orbital mark and light wordmark for dark backgrounds.</desc>
+  <g transform="translate(22 22)">
+    <circle cx="98" cy="98" r="78" fill="none" stroke="#304155" stroke-width="2" stroke-dasharray="5 12"/>
+    <path d="M155 48C132 18 70 17 42 43C19 64 37 91 74 94L119 98C151 101 165 124 146 148C123 176 62 177 31 146" fill="none" stroke="#8585FF" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M38 143C62 171 123 170 146 143" fill="none" stroke="#36E1C3" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="98" cy="98" r="18" fill="#FF5E88"/>
+    <circle cx="98" cy="98" r="6" fill="#071522"/>
+    <circle cx="155" cy="48" r="8" fill="#36E1C3"/>
+    <path d="M98 7V20M98 176V189M7 98H20M176 98H189" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(246 55)">
+    <text x="0" y="83" fill="#F8FAFC" font-family="Avenir Next, Avenir, Helvetica Neue, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">SOLAR</text>
+    <text x="296" y="83" fill="#8585FF" font-family="Avenir Next, Avenir, Helvetica Neue, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="-4">SPIN</text>
+    <text x="5" y="129" fill="#B7C2CF" font-family="Avenir Next, Avenir, Helvetica Neue, Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="11">TECHNOLOGIES</text>
+    <circle cx="703" cy="72" r="7" fill="#FF5E88"/>
+  </g>
+</svg>

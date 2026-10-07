@@ -1,0 +1,63 @@
+# Visual system
+
+## One universe, five material roles
+
+SolarSpin's interface is built from a compact palette. Each colour has a job rather than serving as decoration.
+
+| Token | Value | Role |
+| --- | --- | --- |
+| Gravity | `#071522` | Primary atmosphere and company foundation |
+| Gravity Deep | `#040B12` | Maximum depth, headers and high-contrast surfaces |
+| Gravity Raised | `#101F30` | Cards, controls and elevated system panels |
+| Orbit | `#5655E8` | Technical relationships and orbital structure |
+| Orbit Bright | `#8585FF` | Active paths, emphasis and illuminated geometry |
+| Field | `#28C7AD` | Evidence, active states and positive movement |
+| Field Bright | `#36E1C3` | High-visibility interaction and focus states |
+| Pulse | `#FF4F7B` | Human energy, urgency and the solar core |
+| Paper | `#F8FAFC` | Primary light type and editorial surface |
+| Dune | `#F3EEE6` | Warm founder chapter and Namibian material note |
+| Slate | `#3E4C5E` | Supporting copy on light surfaces |
+| Silver | `#B7C2CF` | Secondary text and restrained UI detail |
+
+## Type
+
+The display and body stack uses Avenir Next where available, then Avenir and system sans-serif fallbacks. This produces a friendly geometric voice without requiring a font download.
+
+Technical labels use the local system monospace stack. They behave like instrument annotations: short, precise and quiet.
+
+## Shape
+
+The visual system uses three related shapes:
+
+1. **Circles and orbital ellipses** represent connected systems.
+2. **Soft rectangles** carry explanation, evidence and actions.
+3. **Fine rules and signal dots** establish direction and state.
+
+Corners are soft enough to feel approachable, but never so soft that the experience becomes playful software furniture. The most important surfaces are allowed to feel like instruments.
+
+## Depth
+
+Depth comes from layered fields rather than heavy drop shadows:
+
+- transparent panels over deep backgrounds
+- subtle grid and system-line overlays
+- low-opacity radial light
+- thin borders that become brighter when active
+- scale and perspective used only on capable pointer devices
+
+The founder chapter changes material completely. Paper, dune and ink move the story from public system to personal record.
+
+## Logo use
+
+The SolarSpin mark combines an orbital `S`, a central pulse and a wordmark. The horizontal reverse lockup is used in the dark navigation and footer. The circular badge appears inside the architecture and on social surfaces.
+
+The mark should retain clear space equal to the width of its central core. Glows belong to the environment, not inside the base logo artwork, so the identity remains usable in quiet contexts.
+
+## Motion character
+
+SolarSpin motion uses two curves:
+
+- a clean ease-out for reading-order reveals and navigation
+- a slightly elastic settle for controls that should feel alive
+
+Continuous animation is reserved for atmosphere and orbital meaning. Content movement is short and settles quickly. Reduced-motion users receive the same hierarchy without the field or reveal dependency.

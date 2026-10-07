@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">SolarSpin website experience system</title>
+  <desc id="desc">Six connected experience chapters orbit a central SolarSpin core: centre, system, proof, method, founder and invitation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071522"/><stop offset="1" stop-color="#040b12"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#ff7799"/><stop offset="1" stop-color="#ff4f7b"/></radialGradient>
+  </defs>
+  <rect width="1600" height="720" rx="34" fill="url(#bg)"/>
+  <g fill="none" stroke-width="2">
+    <ellipse cx="800" cy="360" rx="510" ry="224" stroke="#8585ff" stroke-opacity=".38"/>
+    <ellipse cx="800" cy="360" rx="392" ry="290" stroke="#36e1c3" stroke-opacity=".25" stroke-dasharray="8 12"/>
+    <ellipse cx="800" cy="360" rx="255" ry="145" stroke="#b7c2cf" stroke-opacity=".18"/>
+  </g>
+  <circle cx="800" cy="360" r="89" fill="#ff4f7b" opacity=".12"/>
+  <circle cx="800" cy="360" r="60" fill="url(#core)"/>
+  <text x="800" y="354" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="4">SOLARSPIN</text>
+  <text x="800" y="379" text-anchor="middle" fill="#f8fafc" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">THE CORE</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(190 122)"><rect width="300" height="92" rx="20" fill="#101f30" stroke="#304155"/><text x="24" y="33" fill="#36e1c3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">01 / THE CENTRE</text><text x="24" y="65" fill="#f8fafc" font-size="21" font-weight="800">Promise + orbital hero</text></g>
+    <g transform="translate(1110 104)"><rect width="300" height="92" rx="20" fill="#101f30" stroke="#304155"/><text x="24" y="33" fill="#8585ff" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">02 / THE SYSTEM</text><text x="24" y="65" fill="#f8fafc" font-size="21" font-weight="800">Connected company map</text></g>
+    <g transform="translate(1210 314)"><rect width="300" height="92" rx="20" fill="#101f30" stroke="#304155"/><text x="24" y="33" fill="#ff5e88" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">03 / THE PROOF</text><text x="24" y="65" fill="#f8fafc" font-size="21" font-weight="800">Bounded project evidence</text></g>
+    <g transform="translate(1050 530)"><rect width="300" height="92" rx="20" fill="#101f30" stroke="#304155"/><text x="24" y="33" fill="#36e1c3" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">04 / THE METHOD</text><text x="24" y="65" fill="#f8fafc" font-size="21" font-weight="800">Five inspectable stages</text></g>
+    <g transform="translate(254 526)"><rect width="300" height="92" rx="20" fill="#101f30" stroke="#304155"/><text x="24" y="33" fill="#8585ff" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">05 / THE FOUNDER</text><text x="24" y="65" fill="#f8fafc" font-size="21" font-weight="800">Conviction + continuity</text></g>
+    <g transform="translate(88 326)"><rect width="300" height="92" rx="20" fill="#101f30" stroke="#304155"/><text x="24" y="33" fill="#ff5e88" font-family="ui-monospace, monospace" font-size="11" letter-spacing="2">06 / THE INVITATION</text><text x="24" y="65" fill="#f8fafc" font-size="21" font-weight="800">Problem-led contact path</text></g>
+  </g>
+  <g fill="#36e1c3"><circle cx="472" cy="183" r="7"/><circle cx="1133" cy="591" r="7"/></g>
+  <g fill="#8585ff"><circle cx="1160" cy="156" r="7"/><circle cx="469" cy="580" r="7"/></g>
+  <g fill="#ff4f7b"><circle cx="1231" cy="360" r="7"/><circle cx="367" cy="373" r="7"/></g>
+</svg>

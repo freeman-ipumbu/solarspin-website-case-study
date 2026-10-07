@@ -92,6 +92,8 @@ An interactive relationship map shows SolarSpin as the engine between Freeman's 
 
 The portfolio is designed as evidence, not a logo wall. Visitors can filter work by owned ventures, operations, research and digital experiences. Each card records the role, status and public boundary of the work.
 
+![Further project evidence in the SolarSpin portfolio](assets/screenshots/proof-of-work-final.webp)
+
 ### Method explorer
 
 ![SolarSpin five-stage delivery method](assets/screenshots/method-desktop.webp)

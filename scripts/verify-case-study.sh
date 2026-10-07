@@ -15,6 +15,7 @@ required_files=(
   assets/screenshots/hero-mobile.webp
   assets/screenshots/system-map.webp
   assets/screenshots/proof-of-work.webp
+  assets/screenshots/proof-of-work-final.webp
   assets/screenshots/method-desktop.webp
   assets/screenshots/founder-mobile.webp
   docs/visual-system.md

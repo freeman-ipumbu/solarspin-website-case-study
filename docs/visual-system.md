@@ -40,12 +40,26 @@ Corners are soft enough to feel approachable, but never so soft that the experie
 Depth comes from layered fields rather than heavy drop shadows:
 
 - transparent panels over deep backgrounds
-- subtle grid and system-line overlays
+- subtle grid, system-line and Namib-contour overlays
 - low-opacity radial light
 - thin borders that become brighter when active
 - scale and perspective used only on capable pointer devices
 
 The founder chapter changes material completely. Paper, dune and ink move the story from public system to personal record.
+
+## Surface-specific field assets
+
+The cinematic Field Atlas pass removed the visible opaque, all-purpose system-lines panel from the enhanced surfaces. Its background fill made one piece of artwork behave like a painted rectangle when it crossed from dark space into paper and dune chapters. The legacy artwork still exists, but it is no longer painted on the enhanced surfaces.
+
+The linework is now separated into three transparent material roles:
+
+| Surface | Field treatment | Purpose |
+| --- | --- | --- |
+| Night | Cool silver, orbit and mint system lines | Sits directly over the architecture, method and footer atmospheres without covering their gradients |
+| Dune | Warm ink, clay and field lines | Belongs to the founder chapter's paper and dune material |
+| Namib terrain | Transparent contour lines and sparse field markers | Gives the Project Observatory a Namibia-specific landscape rhythm |
+
+The four Project Observatory orbits reuse the Namib contours inside distinct terrain bands. Owned Universe is keyed to pulse pink, Command and Operations to field mint, Digital Experiences to orbit violet, and Research and Build Records to dune amber. The shared contour grammar keeps the atlas coherent while the accents preserve chapter identity.
 
 ## Logo use
 
@@ -61,3 +75,5 @@ SolarSpin motion uses two curves:
 - a slightly elastic settle for controls that should feel alive
 
 Continuous animation is reserved for atmosphere and orbital meaning. Content movement is short and settles quickly. Reduced-motion users receive the same hierarchy without the field or reveal dependency.
+
+Ambient motion is also section-scoped. Orbits, packets, signals and related loops remain paused until their chapter enters the live viewport state. Inside the Project Observatory, only the current orbit runs its decorative loops. This keeps the cinematic layer local to the visitor's attention instead of animating the whole document at once.

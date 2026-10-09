@@ -26,7 +26,7 @@ Pointer-capable devices receive a restrained tilt driven by local cursor positio
 
 ### Project Observatory
 
-Twenty-seven public-safe project stories are organised into four semantic orbits. The sticky orbit navigator deep-links to each chapter and follows the visitor's position without taking over the browser wheel. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a live position readout, and Left, Right, Home and End keyboard support. The complete inventory remains present in semantic HTML when JavaScript is unavailable.
+Twenty-seven public-safe project stories are organised into four semantic orbits. The sticky orbit navigator deep-links to each chapter and follows the visitor's position without taking over the browser wheel. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a visible position readout, and Left, Right, Home and End keyboard support. The complete inventory remains present in semantic HTML when JavaScript is unavailable.
 
 ### Method rail
 
@@ -39,6 +39,37 @@ Visitors select the kind of problem they are carrying. The interface then change
 ### Founder note
 
 The legacy seal uses the native dialog model where supported. It can be closed by its named control, Escape or a click outside the content panel.
+
+### Cinematic Field Atlas
+
+The Field Atlas is a progressive visual layer over the same semantic sections. Transparent night, dune and Namib-contour assets replace the former opaque system-lines panel, so each chapter keeps its native material surface.
+
+The atmosphere responds to meaningful state changes:
+
+- architecture-node selection moves the signal origin and changes its colour
+- method-step selection moves the light, packet position and active accent
+- pathway selection retunes the field and triggers a short, one-shot transmission
+- the Project Observatory gives each orbit a specific terrain accent and highlights the card nearest the rail's snap position
+- the founder linework drifts only while the founder chapter is active and motion is permitted
+
+These visual responses mirror information already present in text and control state. They do not create a second route to essential content.
+
+### Windhoek transmission
+
+The footer displays a live `Africa/Windhoek` clock in Central Africa Time beside the WHK.NA coordinate marker and system status. The initial placeholder remains understandable before JavaScript runs, and the clock does not gate any footer link or contact path.
+
+## Animation and performance guardrails
+
+An intersection observer gives each cinematic chapter a local live state. Ambient loops are paused by default, start only while their section is in view and, in the Project Observatory, narrow further to the current orbit. Decorative fields use paint containment, clip their overflow and never accept pointer input.
+
+Input and preference boundaries reduce the effect again:
+
+- coarse pointers remove selected backdrop filters while preserving readable solid surfaces
+- reduced motion disables the canvas, reveal gating and all continuing infinite animation
+- forced-colors mode removes decorative atmospheres and gives essential panels system borders and colours
+- no-JavaScript mode keeps the content, project inventory, fallback navigation and direct email route
+
+The QA harness enforces ceilings of fewer than 1,100 DOM nodes, no more than 10 backdrop filters, less than 4 MiB of initial transferred resources and no more than 12 simultaneous infinite animations. The latest recorded desktop run stayed inside each ceiling at 976 nodes, eight backdrop filters, 2,124,942 bytes and nine infinite animations.
 
 ## Runtime
 
@@ -53,7 +84,8 @@ index.html
     ├── app.js
     │     ├── navigation state
     │     ├── component readouts
-    │     ├── project-observatory and pathway logic
+    │     ├── project-observatory, atmosphere and pathway logic
+    │     ├── Windhoek transmission time
     │     └── decorative motion
     │
     └── local assets

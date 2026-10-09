@@ -38,7 +38,7 @@ The result is a responsive, dependency-free digital experience built around one 
 | Public work | 27 carefully bounded project stories across four smart orbits |
 | Experience model | Interactive system map, project observatory, method explorer and guided contact pathway |
 | Runtime | Static HTML, CSS and JavaScript with no framework or runtime dependency |
-| QA widths | 1440, 768, 390 and 320 pixels |
+| QA coverage | Six responsive profiles from 1440 desktop to 320 mobile, including touch and 844 × 390 landscape |
 | Live site | [solarspin-namibia.pages.dev](https://solarspin-namibia.pages.dev/) |
 
 ## The central idea
@@ -71,6 +71,27 @@ The brand system combines:
 Large editorial type carries the conviction. Monospaced labels add the precision of instrumentation. Fine orbital lines, small signals and restrained glows create depth without turning the interface into decorative science fiction.
 
 The full token logic is documented in [the visual system notes](docs/visual-system.md).
+
+## The cinematic Field Atlas pass
+
+The latest enhancement makes the chapters feel like parts of one Windhoek-built field instrument while leaving the semantic story intact. The old all-purpose system-lines artwork carried its own opaque paint surface. The visible opaque panels were removed from the cinematic surfaces in favour of transparent, surface-specific linework: a cool night treatment for dark chapters, a dune treatment for the founder chapter and Namib contour lines for the light Project Observatory. Each surface can now keep its own gradient, paper tone and depth without a foreign rectangle sitting behind the content.
+
+![The Project Observatory using its Owned Universe terrain band, Namib contours and active rail atmosphere](assets/screenshots/field-atlas.webp)
+
+The Field Atlas layer is connected to the interface rather than running as a separate visual show:
+
+- each project orbit carries its own Namib terrain band and accent, moving from pulse pink through field mint and orbit violet to dune amber
+- architecture selections move the section's signal origin and colour; method steps move the light and packet; pathway choices retune the field and send one short transmission
+- the founder chapter uses its own warm transparent linework instead of reusing a light panel on a light surface
+- chapter animation starts only while that section is in view, and project animation is narrowed again to the current orbit
+- decorative layers are paint-contained, pointer-inert and removed from forced-colors mode; coarse-pointer layouts also shed selected blur effects
+- reduced-motion mode stops the continuous field animations instead of merely slowing them down
+
+![SolarSpin footer with a live Windhoek CAT clock, coordinates and transmission status](assets/screenshots/windhoek-transmission.webp)
+
+The footer closes the journey with a live Windhoek transmission: current Central Africa Time, the WHK.NA coordinate marker and a restrained system-status signal. Its clock is informative but not required for navigation or contact.
+
+Verification grew with the visual system. The automated record now covers six responsive profiles: 1440 desktop, 768 tablet, touch mobile at 390, 360 and 320 pixels, and an 844 × 390 touch landscape run. Separate checks confirm horizontal rail movement without blocking vertical touch scrolling, zero continuing infinite animations under reduced motion, visible essentials and zero overflow in forced-colors mode, and the full 27-project/four-orbit experience with fallback navigation and email when JavaScript is unavailable.
 
 ## The interface behaves like the company
 
@@ -122,6 +143,8 @@ Motion gives the experience character, but it is never required to reach the con
 - `prefers-reduced-motion` removes the canvas and reveal dependency
 - essential content remains available when JavaScript is disabled
 - animation pauses when the document is not visible
+- chapter animation remains paused until its own section is in view
+- only the current Project Observatory orbit runs its ambient loops
 
 [Read the interaction and architecture notes](docs/interaction-architecture.md).
 
@@ -134,9 +157,9 @@ Motion gives the experience character, but it is never required to reach the con
   </tr>
 </table>
 
-The mobile experience is recomposed around a vertical rhythm. The hero separates the promise from the orbital control. Navigation becomes an intentional orbit menu. Touch targets expand, supporting copy gets more room, and the founder chapter keeps its editorial impact at 390 and 320 pixels.
+The mobile experience is recomposed around a vertical rhythm. The hero separates the promise from the orbital control. Navigation becomes an intentional orbit menu. Touch targets expand, supporting copy gets more room, and the founder chapter keeps its editorial impact at 390, 360 and 320 pixels as well as short landscape viewports.
 
-The result was checked for horizontal overflow at every supported QA width. The 320-pixel run reported zero overflow.
+The result was checked for horizontal overflow across all six responsive profiles. Every recorded run, including 320-pixel mobile and 844 × 390 landscape, reported zero overflow.
 
 ## Accessibility and resilience
 
@@ -147,9 +170,10 @@ The release includes:
 - high-contrast `:focus-visible` treatment
 - semantic buttons for interactive controls
 - `aria-pressed`, `aria-selected`, `aria-expanded` and named navigation regions
-- live status text for orbit, architecture, project-rail position, method and pathway changes
+- live status text for hero orbit, architecture, method and pathway changes, plus visible project-rail position
 - Escape-key support for menus and the founder dialog
 - reduced-motion handling
+- forced-colors handling that removes non-essential scenery and preserves the core chapters
 - meaningful image alternatives and hidden decorative imagery
 - a JavaScript-free shortcut route and visible essential content
 - a custom 404 page and explicit metadata files
@@ -187,12 +211,15 @@ That small architecture keeps the company experience portable and easy to hand o
 | Local assets | Passed |
 | Console and page errors | None in the recorded QA run |
 | Missing images | None in the recorded QA run |
-| Horizontal overflow | Zero at 1440, 768, 390 and 320 pixels |
+| Responsive profiles | Six passed: 1440, 768, 390, 360, 320 and 844 × 390 landscape |
+| Horizontal overflow | Zero in all six responsive profiles, forced-colors mode and no-JavaScript mode |
 | Mobile navigation | Passed |
-| Project Observatory | 27 cards, four orbits, deep links and rail controls passed |
+| Touch and Project Observatory | 27 cards, four orbits, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
 | Interactive readouts | Passed |
-| Reduced-motion mode | Essential content visible, canvas disabled |
-| JavaScript-disabled mode | Essential content and fallback navigation visible |
+| Performance guardrails | 976 DOM nodes, at most eight backdrop filters and 2,124,942 initial transfer bytes in the recorded run |
+| Reduced-motion mode | Essential content visible, canvas disabled and zero infinite animations continuing |
+| Forced-colors mode | Essential content visible with zero horizontal overflow |
+| JavaScript-disabled mode | 27 projects and four orbits visible, with fallback navigation and direct email |
 | Custom 404 | Passed |
 | Production homepage | Publicly reachable |
 
@@ -231,6 +258,8 @@ This repository is deliberately separate from the private production repository.
 - [`assets/experience-system.svg`](assets/experience-system.svg) explains the experience architecture.
 - [`assets/design-language.svg`](assets/design-language.svg) records the colour and visual roles.
 - [`assets/screenshots`](assets/screenshots) contains selected, compressed QA evidence.
+- [`assets/screenshots/field-atlas.webp`](assets/screenshots/field-atlas.webp) records the new orbit terrain treatment.
+- [`assets/screenshots/windhoek-transmission.webp`](assets/screenshots/windhoek-transmission.webp) records the live-location footer treatment.
 - [`docs/visual-system.md`](docs/visual-system.md) documents the design system.
 - [`docs/interaction-architecture.md`](docs/interaction-architecture.md) explains progressive interaction and technical choices.
 - [`docs/accessibility-and-qa.md`](docs/accessibility-and-qa.md) records accessibility and verification scope.

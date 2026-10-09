@@ -24,9 +24,9 @@ Six nodes explain the relationships between founder, company engine, commercial 
 
 Pointer-capable devices receive a restrained tilt driven by local cursor position. Touch and reduced-motion contexts keep the same cards without the effect.
 
-### Work filter
+### Project Observatory
 
-Project controls expose their selected state and update a screen-reader status line. Filtering changes visibility within the same document, so visitors retain context.
+Twenty-seven public-safe project stories are organised into four semantic orbits. The sticky orbit navigator deep-links to each chapter and follows the visitor's position without taking over the browser wheel. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a live position readout, and Left, Right, Home and End keyboard support. The complete inventory remains present in semantic HTML when JavaScript is unavailable.
 
 ### Method rail
 
@@ -53,7 +53,7 @@ index.html
     ├── app.js
     │     ├── navigation state
     │     ├── component readouts
-    │     ├── filtering and pathway logic
+    │     ├── project-observatory and pathway logic
     │     └── decorative motion
     │
     └── local assets

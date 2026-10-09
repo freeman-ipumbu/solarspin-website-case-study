@@ -16,7 +16,7 @@ The automated run also exercised reduced-motion mode, JavaScript-disabled mode a
 ## Recorded results
 
 - exactly one primary page heading
-- eight public project cards present
+- 27 public project cards present across four semantic orbits
 - zero horizontal overflow at 320 pixels in the recorded report
 - all inspected images complete with natural dimensions
 - no nameless buttons
@@ -33,7 +33,8 @@ The automated run also exercised reduced-motion mode, JavaScript-disabled mode a
 - active section state
 - hero orbit changes
 - architecture-node changes
-- project category filters
+- project-orbit navigation and deep links
+- project-rail arrow controls, keyboard movement and live position readouts
 - method step activation and keyboard navigation
 - contact pathway updates
 - founder dialog open and close paths

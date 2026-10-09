@@ -35,8 +35,8 @@ The result is a responsive, dependency-free digital experience built around one 
 | Founder | [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) |
 | Origin | Windhoek, Namibia |
 | Launch | October 2026 |
-| Public work | 8 carefully bounded project stories |
-| Experience model | Interactive system map, project filters, method explorer and guided contact pathway |
+| Public work | 27 carefully bounded project stories across four smart orbits |
+| Experience model | Interactive system map, project observatory, method explorer and guided contact pathway |
 | Runtime | Static HTML, CSS and JavaScript with no framework or runtime dependency |
 | QA widths | 1440, 768, 390 and 320 pixels |
 | Live site | [solarspin-namibia.pages.dev](https://solarspin-namibia.pages.dev/) |
@@ -74,7 +74,7 @@ The full token logic is documented in [the visual system notes](docs/visual-syst
 
 ## The interface behaves like the company
 
-The website does not make visitors read a long manifesto before they understand SolarSpin. Each important idea can be touched, filtered or explored.
+The website does not make visitors read a long manifesto before they understand SolarSpin. Each important idea can be touched, navigated or explored.
 
 ### Orbital hero
 
@@ -88,11 +88,13 @@ An interactive relationship map shows SolarSpin as the engine between Freeman's 
 
 ### Proof of work
 
-![SolarSpin project portfolio and interactive filters](assets/screenshots/proof-of-work.webp)
+![SolarSpin Project Observatory showing the Owned Universe orbit and its horizontal project rail](assets/screenshots/proof-of-work.webp)
 
-The portfolio is designed as evidence, not a logo wall. Visitors can filter work by owned ventures, operations, research and digital experiences. Each card records the role, status and public boundary of the work.
+The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 27 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. A sticky orbit navigator moves between those chapters, while each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
 
-![Further project evidence in the SolarSpin portfolio](assets/screenshots/proof-of-work-final.webp)
+![SolarSpin Command and Operations orbit with the anonymous fuel-retail platform and TPTS-attributed FinePay work](assets/screenshots/proof-of-work-final.webp)
+
+The wider inventory does not blur ownership. Namibia FinePay is explicitly presented as technical leadership through TPTS Namibia. The fuel-retail prospect stays anonymous. Private production repositories remain private, and superseded work is excluded.
 
 ### Method explorer
 
@@ -112,6 +114,8 @@ Motion gives the experience character, but it is never required to reach the con
 - orbital nodes and satellites make system relationships visible
 - reveal sequences establish reading order
 - project cards tilt only on capable pointer devices
+- project rails expose native swipe, trackpad, arrow-button and keyboard navigation
+- the active project orbit follows the visitor without hijacking vertical scrolling
 - magnetic controls add tactile feedback to high-value actions
 - the header, progress signal and navigation react to position
 - the legacy seal opens a focused founder note
@@ -143,7 +147,7 @@ The release includes:
 - high-contrast `:focus-visible` treatment
 - semantic buttons for interactive controls
 - `aria-pressed`, `aria-selected`, `aria-expanded` and named navigation regions
-- live status text for orbit, architecture, filtering, method and pathway changes
+- live status text for orbit, architecture, project-rail position, method and pathway changes
 - Escape-key support for menus and the founder dialog
 - reduced-motion handling
 - meaningful image alternatives and hidden decorative imagery
@@ -185,7 +189,7 @@ That small architecture keeps the company experience portable and easy to hand o
 | Missing images | None in the recorded QA run |
 | Horizontal overflow | Zero at 1440, 768, 390 and 320 pixels |
 | Mobile navigation | Passed |
-| Project filtering | Passed |
+| Project Observatory | 27 cards, four orbits, deep links and rail controls passed |
 | Interactive readouts | Passed |
 | Reduced-motion mode | Essential content visible, canvas disabled |
 | JavaScript-disabled mode | Essential content and fallback navigation visible |

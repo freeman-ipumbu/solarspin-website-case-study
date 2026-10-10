@@ -27,7 +27,7 @@ SolarSpin's website is a public company experience, but its production repositor
 
 ## Project claims
 
-The screenshots record the October 2026 release, including the cinematic Field Atlas enhancement and its Windhoek transmission footer. The live site can continue to evolve after this case study is published.
+The screenshots record the October 2026 release, including the short branded ignition, corrected Project Observatory navigation and heading composition, cinematic Field Atlas, interactive Milky Way-to-Windhoek address, live Windhoek transmission and final SolarSpin Experience sign-off. The live site can continue to evolve after this case study is published.
 
 References to accessibility describe implementation decisions and an automated QA run. They are not a claim of formal certification.
 

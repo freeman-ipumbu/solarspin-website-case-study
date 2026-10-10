@@ -36,7 +36,7 @@ The result is a responsive, dependency-free digital experience built around one 
 | Origin | Windhoek, Namibia |
 | Launch | October 2026 |
 | Public work | 27 carefully bounded project stories across four smart orbits |
-| Experience model | Interactive system map, project observatory, method explorer and guided contact pathway |
+| Experience model | Branded ignition, interactive system map, project observatory, guided contact pathway and cosmic-address finale |
 | Runtime | Static HTML, CSS and JavaScript with no framework or runtime dependency |
 | QA coverage | Six responsive profiles from 1440 desktop to 320 mobile, including touch and 844 × 390 landscape |
 | Live site | [solarspin-namibia.pages.dev](https://solarspin-namibia.pages.dev/) |
@@ -47,14 +47,18 @@ The interface treats SolarSpin as a small universe with a clear centre. Research
 
 ![SolarSpin experience architecture diagram](assets/experience-system.svg)
 
-The experience moves through six chapters:
+A short branded ignition opens eight chapters:
 
 1. **The centre:** a live orbital hero introduces the company promise.
 2. **The system:** a relationship map explains how founder, company, ventures, client work, research and internal systems connect.
-3. **The proof:** project cards make the public work inspectable, including its real release boundaries.
-4. **The method:** a five-stage rail shows how SolarSpin moves from field evidence to a system that can be handed over.
-5. **The founder:** Freeman's reason for building the company becomes part of the product story.
-6. **The invitation:** visitors identify the problem they are carrying before they make contact.
+3. **The capabilities:** four disciplines turn the promise into a practical offer.
+4. **The proof:** project cards make the public work inspectable, including its real release boundaries.
+5. **The method:** a five-stage rail shows how SolarSpin moves from field evidence to a system that can be handed over.
+6. **The founder:** Freeman's reason for building the company becomes part of the product story.
+7. **The invitation:** visitors identify the problem they are carrying before they make contact.
+8. **The cosmic address:** the journey resolves from the Milky Way to Windhoek, then signs off with one final branded beat.
+
+![SolarSpin's short Igniting the System opening sequence](assets/screenshots/ignition-intro.webp)
 
 ## A visual language with purpose
 
@@ -87,15 +91,27 @@ The Field Atlas layer is connected to the interface rather than running as a sep
 - decorative layers are paint-contained, pointer-inert and removed from forced-colors mode; coarse-pointer layouts also shed selected blur effects
 - reduced-motion mode stops the continuous field animations instead of merely slowing them down
 
+![SolarSpin interactive cosmic address beginning at the Milky Way](assets/screenshots/cosmic-address.webp)
+
+The footer is now a final interactive chapter. Six keyboard-addressable stops trace the public origin story from the Milky Way through the Solar System, Earth, Africa and Namibia to Windhoek. The visual and readout change together, while the route remains understandable as labelled controls and text.
+
 ![SolarSpin footer with a live Windhoek CAT clock, coordinates and transmission status](assets/screenshots/windhoek-transmission.webp)
 
-The footer closes the journey with a live Windhoek transmission: current Central Africa Time, the WHK.NA coordinate marker and a restrained system-status signal. Its clock is informative but not required for navigation or contact.
+The address resolves into a live Windhoek transmission: current Central Africa Time, the WHK.NA coordinate marker and a restrained system-status signal. The clock is informative but not required for navigation or contact.
+
+![The final SolarSpin Experience closing statement](assets/screenshots/experience-finale.webp)
+
+The final panel does not introduce another task. It simply lands the journey with the line: **“You’ve now had a SolarSpin Experience.”**
 
 Verification grew with the visual system. The automated record now covers six responsive profiles: 1440 desktop, 768 tablet, touch mobile at 390, 360 and 320 pixels, and an 844 × 390 touch landscape run. Separate checks confirm horizontal rail movement without blocking vertical touch scrolling, zero continuing infinite animations under reduced motion, visible essentials and zero overflow in forced-colors mode, and the full 27-project/four-orbit experience with fallback navigation and email when JavaScript is unavailable.
 
 ## The interface behaves like the company
 
 The website does not make visitors read a long manifesto before they understand SolarSpin. Each important idea can be touched, navigated or explored.
+
+### Branded ignition
+
+The experience opens with a 1.48-second, pointer-inert ignition built from the SolarSpin badge, orbit lines, Windhoek coordinates and a clear progress signal. It releases the page automatically and is skipped entirely when reduced motion is requested, forced colours are active or JavaScript is unavailable.
 
 ### Orbital hero
 
@@ -127,11 +143,16 @@ The method rail turns a delivery philosophy into five inspectable decisions: Fie
 
 Instead of opening with a blank form, the final interaction asks what kind of problem the visitor is carrying. The selected path shapes the prompt and the resulting email subject. The visitor arrives at contact with a clearer starting point.
 
+### Cosmic address and closing beat
+
+The cosmic address behaves as a six-stop tab sequence with a shared visual and textual readout. Arrow-key movement, Home and End support, selected-state exposure and full-size touch controls make the interaction inspectable beyond its animation. The finale that follows is static, readable content rather than another gate.
+
 ## Motion with an off switch
 
 Motion gives the experience character, but it is never required to reach the content.
 
 - a canvas particle field establishes depth in the hero
+- a short badge-and-orbit ignition establishes the brand, then releases the interface
 - orbital nodes and satellites make system relationships visible
 - reveal sequences establish reading order
 - project cards tilt only on capable pointer devices
@@ -140,7 +161,8 @@ Motion gives the experience character, but it is never required to reach the con
 - magnetic controls add tactile feedback to high-value actions
 - the header, progress signal and navigation react to position
 - the legacy seal opens a focused founder note
-- `prefers-reduced-motion` removes the canvas and reveal dependency
+- cosmic-address layers transition only when a visitor changes the selected stop
+- `prefers-reduced-motion` removes the ignition, canvas and reveal dependency
 - essential content remains available when JavaScript is disabled
 - animation pauses when the document is not visible
 - chapter animation remains paused until its own section is in view
@@ -159,6 +181,10 @@ Motion gives the experience character, but it is never required to reach the con
 
 The mobile experience is recomposed around a vertical rhythm. The hero separates the promise from the orbital control. Navigation becomes an intentional orbit menu. Touch targets expand, supporting copy gets more room, and the founder chapter keeps its editorial impact at 390, 360 and 320 pixels as well as short landscape viewports.
 
+![SolarSpin mobile Project Observatory with its active orbit control and unobscured heading](assets/screenshots/project-orbit-mobile.webp)
+
+The Project Observatory fix is explicit: selecting an orbit scrolls its active control into view, places the orbit heading below the fixed navigation stack and keeps the heading inside its column at every tested width. The mobile menu still closes on Escape and restores page scrolling.
+
 The result was checked for horizontal overflow across all six responsive profiles. Every recorded run, including 320-pixel mobile and 844 × 390 landscape, reported zero overflow.
 
 ## Accessibility and resilience
@@ -171,8 +197,10 @@ The release includes:
 - semantic buttons for interactive controls
 - `aria-pressed`, `aria-selected`, `aria-expanded` and named navigation regions
 - live status text for hero orbit, architecture, method and pathway changes, plus visible project-rail position
+- a shared textual readout for the selected cosmic-address stop
 - Escape-key support for menus and the founder dialog
-- reduced-motion handling
+- keyboard navigation for the method and cosmic-address tab sequences
+- reduced-motion handling that skips the ignition and stops continuing loops
 - forced-colors handling that removes non-essential scenery and preserves the core chapters
 - meaningful image alternatives and hidden decorative imagery
 - a JavaScript-free shortcut route and visible essential content
@@ -213,10 +241,11 @@ That small architecture keeps the company experience portable and easy to hand o
 | Missing images | None in the recorded QA run |
 | Responsive profiles | Six passed: 1440, 768, 390, 360, 320 and 844 × 390 landscape |
 | Horizontal overflow | Zero in all six responsive profiles, forced-colors mode and no-JavaScript mode |
-| Mobile navigation | Passed |
+| Intro release | Hidden, transparent and pointer-inert after the short ignition; skipped for reduced motion and no JavaScript |
+| Mobile navigation and orbit headings | Menu open/close passed; active orbit controls remained visible and headings reported zero overflow or fixed-header obstruction |
 | Touch and Project Observatory | 27 cards, four orbits, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
-| Interactive readouts | Passed |
-| Performance guardrails | 976 DOM nodes, at most eight backdrop filters and 2,124,942 initial transfer bytes in the recorded run |
+| Interactive readouts | Hero, architecture, method, pathway and six-stop cosmic address passed, including keyboard state changes |
+| Performance guardrails | 1,099 DOM nodes, at most eight backdrop filters, 2,144,317 initial transfer bytes and at most nine simultaneous infinite animations in the recorded run |
 | Reduced-motion mode | Essential content visible, canvas disabled and zero infinite animations continuing |
 | Forced-colors mode | Essential content visible with zero horizontal overflow |
 | JavaScript-disabled mode | 27 projects and four orbits visible, with fallback navigation and direct email |
@@ -258,8 +287,12 @@ This repository is deliberately separate from the private production repository.
 - [`assets/experience-system.svg`](assets/experience-system.svg) explains the experience architecture.
 - [`assets/design-language.svg`](assets/design-language.svg) records the colour and visual roles.
 - [`assets/screenshots`](assets/screenshots) contains selected, compressed QA evidence.
+- [`assets/screenshots/ignition-intro.webp`](assets/screenshots/ignition-intro.webp) records the short branded opening.
 - [`assets/screenshots/field-atlas.webp`](assets/screenshots/field-atlas.webp) records the new orbit terrain treatment.
+- [`assets/screenshots/project-orbit-mobile.webp`](assets/screenshots/project-orbit-mobile.webp) records the corrected mobile orbit landing and navigation state.
+- [`assets/screenshots/cosmic-address.webp`](assets/screenshots/cosmic-address.webp) records the Milky Way-to-Windhoek address sequence.
 - [`assets/screenshots/windhoek-transmission.webp`](assets/screenshots/windhoek-transmission.webp) records the live-location footer treatment.
+- [`assets/screenshots/experience-finale.webp`](assets/screenshots/experience-finale.webp) records the final branded sign-off.
 - [`docs/visual-system.md`](docs/visual-system.md) documents the design system.
 - [`docs/interaction-architecture.md`](docs/interaction-architecture.md) explains progressive interaction and technical choices.
 - [`docs/accessibility-and-qa.md`](docs/accessibility-and-qa.md) records accessibility and verification scope.
@@ -277,5 +310,7 @@ Run the local verification:
 This case study and the experience it documents were designed and delivered by **[SolarSpin Technologies](https://solarspin-namibia.pages.dev/)**, founded by [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) in Windhoek, Namibia.
 
 The source is private. The thinking is visible. The standard is public.
+
+> **You’ve now had a SolarSpin Experience.**
 
 © 2026 SolarSpin Technologies. See [LICENSE](LICENSE) for the repository terms.

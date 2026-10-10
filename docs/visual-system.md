@@ -77,3 +77,9 @@ SolarSpin motion uses two curves:
 Continuous animation is reserved for atmosphere and orbital meaning. Content movement is short and settles quickly. Reduced-motion users receive the same hierarchy without the field or reveal dependency.
 
 Ambient motion is also section-scoped. Orbits, packets, signals and related loops remain paused until their chapter enters the live viewport state. Inside the Project Observatory, only the current orbit runs its decorative loops. This keeps the cinematic layer local to the visitor's attention instead of animating the whole document at once.
+
+## Branded bookends
+
+The opening and closing use the same identity without repeating the same composition. The 1.48-second ignition isolates the circular SolarSpin badge, two orbit lines, one travelling pulse and a Windhoek readout against Gravity Deep. It is intentionally brief and optional.
+
+At the other end, the cosmic address expands that visual grammar into six scales of place. Mint signals progress, orbit violet marks the active route and pulse pink identifies the final lock. The closing statement then removes the controls and leaves one oversized editorial sentence: “You’ve now had a SolarSpin Experience.” This makes the ending feel earned without asking for one more interaction.

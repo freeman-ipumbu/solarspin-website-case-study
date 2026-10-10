@@ -24,19 +24,23 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 - all inspected images complete with natural dimensions
 - no nameless buttons
 - no blank external links missing a relationship declaration
+- the ignition released the interface as hidden, transparent and pointer-inert in every standard profile
+- six cosmic-address controls present, with no undersized or clipped control in any profile
+- no project-orbit or primary section heading overflow in any profile
 - no essential content hidden, no canvas and zero continuing infinite animations in reduced-motion mode
 - essential content visible with zero horizontal overflow in forced-colors mode
 - all 27 projects and four project orbits visible without JavaScript
 - visible fallback navigation and direct email available without JavaScript
-- 976 DOM nodes across the responsive profiles
+- 1,099 DOM nodes across the responsive profiles, below the ceiling of 1,100
 - at most eight active backdrop filters, below the ceiling of 10
-- 2,124,942 initial transfer bytes, below the 4 MiB ceiling
+- 2,144,317 initial transfer bytes, below the 4 MiB ceiling
 - at most nine continuing infinite animations in a standard profile, below the ceiling of 12
 - no decorative Field Atlas layer accepted pointer input
 
 ## Interaction checks
 
 - desktop and mobile navigation
+- project-orbit landing position, active-control visibility and heading containment
 - active section state
 - hero orbit changes
 - architecture-node changes
@@ -45,6 +49,7 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 - project-rail horizontal movement and retained vertical page scrolling on every touch profile
 - method step activation and keyboard navigation
 - contact pathway updates
+- six-stop cosmic-address selection, readout update and keyboard return to the first stop
 - interaction-driven architecture, method and pathway atmosphere state
 - founder dialog open and close paths
 - local asset resolution
@@ -61,17 +66,19 @@ The DOM order follows the story order. Desktop layout never changes the underlyi
 
 Buttons disclose active, selected and expanded state with ARIA attributes. Shared readouts use live regions where a state change would otherwise be silent.
 
+The cosmic address uses a labelled tablist and a shared tab panel. Its selected control, visual state and textual readout move together, so the animated route is not the only state signal.
+
 ### Keyboard
 
-Interactive controls are native buttons or links. Focus receives a clear mint outline. The skip link becomes visible on focus. Escape closes temporary layers.
+Interactive controls are native buttons or links. Focus receives a clear mint outline. The skip link becomes visible on focus. Escape closes temporary layers. The method and cosmic-address sequences expose Arrow, Home and End keyboard paths.
 
 ### Motion
 
-Reduced-motion preferences remove the hero canvas and reveal gating. They also stop the Field Atlas orbit, packet, signal, radar and badge loops. The recorded reduced-motion run reported zero continuing infinite animations, with the same content present and readable.
+Reduced-motion preferences skip the branded ignition, remove the hero canvas and reveal gating, and stop the Field Atlas orbit, packet, signal, radar and badge loops. The recorded reduced-motion run reported zero continuing infinite animations, with the same content and finale present and readable.
 
 ### Forced colors
 
-Decorative atmospheres, terrain horizons, founder scenery and pathway transmissions are removed under forced colors. Essential panels use system colours and borders. The recorded run kept the hero, work, founder and pathway headings visible with zero horizontal overflow.
+Decorative atmospheres, terrain horizons, founder scenery, pathway transmissions and the cosmic illustration are removed under forced colors. Essential panels, cosmic controls and readouts use system colours and borders. The recorded run kept the hero, work, founder and pathway headings visible with zero horizontal overflow.
 
 ### Performance and pointer isolation
 
@@ -83,6 +90,6 @@ Content imagery carries descriptive alternative text. Decorative fields, lines a
 
 ## Honest boundary
 
-These checks support the quality of this release. They do not constitute independent WCAG certification, assistive-technology coverage across every browser, a formal penetration test or a production performance guarantee. The transfer and animation figures are recorded local-run diagnostics, not field-performance measurements.
+These checks support the quality of this release. They do not constitute independent WCAG certification, assistive-technology coverage across every browser, a formal penetration test or a production performance guarantee. The DOM, transfer, filter and animation figures are recorded local-run diagnostics, not field-performance measurements or Lighthouse results.
 
 Before any major content expansion, SolarSpin should repeat keyboard testing, screen-reader spot checks, contrast verification and performance measurement against the final production payload.

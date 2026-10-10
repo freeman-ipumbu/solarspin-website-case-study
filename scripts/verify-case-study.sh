@@ -17,7 +17,11 @@ required_files=(
   assets/screenshots/proof-of-work.webp
   assets/screenshots/proof-of-work-final.webp
   assets/screenshots/field-atlas.webp
+  assets/screenshots/project-orbit-mobile.webp
+  assets/screenshots/ignition-intro.webp
+  assets/screenshots/cosmic-address.webp
   assets/screenshots/windhoek-transmission.webp
+  assets/screenshots/experience-finale.webp
   assets/screenshots/method-desktop.webp
   assets/screenshots/founder-mobile.webp
   docs/visual-system.md

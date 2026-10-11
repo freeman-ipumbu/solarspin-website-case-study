@@ -18,7 +18,8 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 ## Recorded results
 
 - exactly one primary page heading
-- 27 public project cards present across four semantic orbits
+- 28 public project cards present across four semantic orbits
+- four native-link Observatory beacons with 44-pixel targets, synchronized committed state and separate non-mutating preview state
 - zero horizontal overflow in all six responsive profiles
 - touch project rails moved horizontally while vertical page scrolling remained available
 - all inspected images complete with natural dimensions
@@ -29,12 +30,12 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 - no project-orbit or primary section heading overflow in any profile
 - no essential content hidden, no canvas and zero continuing infinite animations in reduced-motion mode
 - essential content visible with zero horizontal overflow in forced-colors mode
-- all 27 projects and four project orbits visible without JavaScript
+- all 28 projects, four project orbits and four native beacon destinations visible without JavaScript
 - visible fallback navigation and direct email available without JavaScript
-- 1,099 DOM nodes across the responsive profiles, below the ceiling of 1,100
-- at most eight active backdrop filters, below the ceiling of 10
-- 2,144,317 initial transfer bytes, below the 4 MiB ceiling
-- at most nine continuing infinite animations in a standard profile, below the ceiling of 12
+- 1,175 DOM nodes across the responsive profiles, below the ceiling of 1,200
+- at most nine active backdrop filters, below the ceiling of 10
+- 2,229,118 initial transfer bytes, below the 4 MiB ceiling
+- at most ten continuing infinite animations in a standard profile, below the ceiling of 12
 - no decorative Field Atlas layer accepted pointer input
 
 ## Interaction checks
@@ -44,7 +45,7 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 - active section state
 - hero orbit changes
 - architecture-node changes
-- project-orbit navigation and deep links
+- Observatory beacon preview, Enter activation, synchronized project-orbit navigation and deep links
 - project-rail arrow controls, keyboard movement and visible position readouts
 - project-rail horizontal movement and retained vertical page scrolling on every touch profile
 - method step activation and keyboard navigation

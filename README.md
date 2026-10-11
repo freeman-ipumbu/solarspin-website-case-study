@@ -127,7 +127,7 @@ An interactive relationship map shows SolarSpin as the engine between Freeman's 
 
 ![SolarSpin Project Observatory showing the Owned Universe orbit and its horizontal project rail](assets/screenshots/proof-of-work.webp)
 
-The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 27 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. A sticky orbit navigator moves between those chapters, while each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
+The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 28 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. Its four visual beacons are real links: hover or keyboard focus previews the chosen orbit, while click, tap or Enter commits the same destination and state as the sticky orbit navigator below. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
 
 ![SolarSpin Command and Operations orbit with the anonymous fuel-retail platform and TPTS-attributed FinePay work](assets/screenshots/proof-of-work-final.webp)
 
@@ -243,9 +243,9 @@ That small architecture keeps the company experience portable and easy to hand o
 | Horizontal overflow | Zero in all six responsive profiles, forced-colors mode and no-JavaScript mode |
 | Intro release | Hidden, transparent and pointer-inert after the short ignition; skipped for reduced motion and no JavaScript |
 | Mobile navigation and orbit headings | Menu open/close passed; active orbit controls remained visible and headings reported zero overflow or fixed-header obstruction |
-| Touch and Project Observatory | 27 cards, four orbits, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
+| Touch and Project Observatory | 28 cards, four synchronized visual beacons and sticky orbit controls, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
 | Interactive readouts | Hero, architecture, method, pathway and six-stop cosmic address passed, including keyboard state changes |
-| Performance guardrails | 1,099 DOM nodes, at most eight backdrop filters, 2,144,317 initial transfer bytes and at most nine simultaneous infinite animations in the recorded run |
+| Performance guardrails | 1,175 DOM nodes, at most nine backdrop filters, 2,229,118 initial transfer bytes and at most ten simultaneous infinite animations in the recorded run |
 | Reduced-motion mode | Essential content visible, canvas disabled and zero infinite animations continuing |
 | Forced-colors mode | Essential content visible with zero horizontal overflow |
 | JavaScript-disabled mode | 27 projects and four orbits visible, with fallback navigation and direct email |

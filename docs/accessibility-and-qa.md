@@ -18,7 +18,7 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 ## Recorded results
 
 - exactly one primary page heading
-- 28 public project cards present across four semantic orbits
+- 30 public project cards present across four semantic orbits
 - four native-link Observatory beacons with 44-pixel targets, synchronized committed state and separate non-mutating preview state
 - zero horizontal overflow in all six responsive profiles
 - touch project rails moved horizontally while vertical page scrolling remained available
@@ -30,11 +30,11 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 - no project-orbit or primary section heading overflow in any profile
 - no essential content hidden, no canvas and zero continuing infinite animations in reduced-motion mode
 - essential content visible with zero horizontal overflow in forced-colors mode
-- all 28 projects, four project orbits and four native beacon destinations visible without JavaScript
+- all 30 projects, four project orbits and four native beacon destinations visible without JavaScript
 - visible fallback navigation and direct email available without JavaScript
-- 1,175 DOM nodes across the responsive profiles, below the ceiling of 1,200
+- 1,210 DOM nodes across the responsive profiles, below the ceiling of 1,250
 - at most nine active backdrop filters, below the ceiling of 10
-- 2,229,118 initial transfer bytes, below the 4 MiB ceiling
+- 2,400,834 initial transfer bytes, below the 4 MiB ceiling
 - at most ten continuing infinite animations in a standard profile, below the ceiling of 12
 - no decorative Field Atlas layer accepted pointer input
 

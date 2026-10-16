@@ -35,7 +35,7 @@ The result is a responsive, dependency-free digital experience built around one 
 | Founder | [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) |
 | Origin | Windhoek, Namibia |
 | Launch | October 2026 |
-| Public work | 27 carefully bounded project stories across four smart orbits |
+| Public work | 30 carefully bounded project stories across four smart orbits |
 | Experience model | Branded ignition, interactive system map, project observatory, guided contact pathway and cosmic-address finale |
 | Runtime | Static HTML, CSS and JavaScript with no framework or runtime dependency |
 | QA coverage | Six responsive profiles from 1440 desktop to 320 mobile, including touch and 844 × 390 landscape |
@@ -103,7 +103,7 @@ The address resolves into a live Windhoek transmission: current Central Africa T
 
 The final panel does not introduce another task. It simply lands the journey with the line: **“You’ve now had a SolarSpin Experience.”**
 
-Verification grew with the visual system. The automated record now covers six responsive profiles: 1440 desktop, 768 tablet, touch mobile at 390, 360 and 320 pixels, and an 844 × 390 touch landscape run. Separate checks confirm horizontal rail movement without blocking vertical touch scrolling, zero continuing infinite animations under reduced motion, visible essentials and zero overflow in forced-colors mode, and the full 27-project/four-orbit experience with fallback navigation and email when JavaScript is unavailable.
+Verification grew with the visual system. The automated record now covers six responsive profiles: 1440 desktop, 768 tablet, touch mobile at 390, 360 and 320 pixels, and an 844 × 390 touch landscape run. Separate checks confirm horizontal rail movement without blocking vertical touch scrolling, zero continuing infinite animations under reduced motion, visible essentials and zero overflow in forced-colors mode, and the full 30-project/four-orbit experience with fallback navigation and email when JavaScript is unavailable.
 
 ## The interface behaves like the company
 
@@ -127,7 +127,11 @@ An interactive relationship map shows SolarSpin as the engine between Freeman's 
 
 ![SolarSpin Project Observatory showing the Owned Universe orbit and its horizontal project rail](assets/screenshots/proof-of-work.webp)
 
-The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 28 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. Its four visual beacons are real links: hover or keyboard focus previews the chosen orbit, while click, tap or Enter commits the same destination and state as the sticky orbit navigator below. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
+The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 30 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. Its four visual beacons are real links: hover or keyboard focus previews the chosen orbit, while click, tap or Enter commits the same destination and state as the sticky orbit navigator below. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
+
+![TPTS Grid Route Studio mapping an ordered Namibia road journey](assets/screenshots/tpts-grid-route-studio-live.jpg)
+
+The 30th indexed story is TPTS Grid, the 12th card in Command and Operations. TPTS Financial Technology Group owns the product, while SolarSpin built the digital experience. The public scope is intentionally precise: Namibia-first destination discovery, property-owner claim and onboarding, and a traveller-owned Route Studio. Destination anchors are not presented as live OTA room inventory, and the pilot does not process bookings or payments.
 
 ![SolarSpin Command and Operations orbit with the anonymous fuel-retail platform and TPTS-attributed FinePay work](assets/screenshots/proof-of-work-final.webp)
 
@@ -243,12 +247,12 @@ That small architecture keeps the company experience portable and easy to hand o
 | Horizontal overflow | Zero in all six responsive profiles, forced-colors mode and no-JavaScript mode |
 | Intro release | Hidden, transparent and pointer-inert after the short ignition; skipped for reduced motion and no JavaScript |
 | Mobile navigation and orbit headings | Menu open/close passed; active orbit controls remained visible and headings reported zero overflow or fixed-header obstruction |
-| Touch and Project Observatory | 28 cards, four synchronized visual beacons and sticky orbit controls, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
+| Touch and Project Observatory | 30 cards, four synchronized visual beacons and sticky orbit controls, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
 | Interactive readouts | Hero, architecture, method, pathway and six-stop cosmic address passed, including keyboard state changes |
-| Performance guardrails | 1,175 DOM nodes, at most nine backdrop filters, 2,229,118 initial transfer bytes and at most ten simultaneous infinite animations in the recorded run |
+| Performance guardrails | 1,210 DOM nodes, at most nine backdrop filters, 2,400,834 initial transfer bytes and at most ten simultaneous infinite animations in the recorded run |
 | Reduced-motion mode | Essential content visible, canvas disabled and zero infinite animations continuing |
 | Forced-colors mode | Essential content visible with zero horizontal overflow |
-| JavaScript-disabled mode | 27 projects and four orbits visible, with fallback navigation and direct email |
+| JavaScript-disabled mode | 30 projects and four orbits visible, with fallback navigation and direct email |
 | Custom 404 | Passed |
 | Production homepage | Publicly reachable |
 
@@ -290,6 +294,7 @@ This repository is deliberately separate from the private production repository.
 - [`assets/screenshots/ignition-intro.webp`](assets/screenshots/ignition-intro.webp) records the short branded opening.
 - [`assets/screenshots/field-atlas.webp`](assets/screenshots/field-atlas.webp) records the new orbit terrain treatment.
 - [`assets/screenshots/project-orbit-mobile.webp`](assets/screenshots/project-orbit-mobile.webp) records the corrected mobile orbit landing and navigation state.
+- [`assets/screenshots/tpts-grid-route-studio-live.jpg`](assets/screenshots/tpts-grid-route-studio-live.jpg) records the TPTS Grid Route Studio public pilot.
 - [`assets/screenshots/cosmic-address.webp`](assets/screenshots/cosmic-address.webp) records the Milky Way-to-Windhoek address sequence.
 - [`assets/screenshots/windhoek-transmission.webp`](assets/screenshots/windhoek-transmission.webp) records the live-location footer treatment.
 - [`assets/screenshots/experience-finale.webp`](assets/screenshots/experience-finale.webp) records the final branded sign-off.

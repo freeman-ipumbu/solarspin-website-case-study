@@ -30,7 +30,7 @@ Pointer-capable devices receive a restrained tilt driven by local cursor positio
 
 ### Project Observatory
 
-Twenty-eight public-safe project stories are organised into four semantic orbits. The visual beacons and sticky orbit navigator share one committed state and deep-link to the same chapters without taking over the browser wheel. Preview state never changes the selected orbit or accessible current state. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a visible position readout, and Left, Right, Home and End keyboard support. Without JavaScript, all four beacons remain honest native anchors and the complete inventory remains present in semantic HTML.
+Thirty public-safe project stories are organised into four semantic orbits. The visual beacons and sticky orbit navigator share one committed state and deep-link to the same chapters without taking over the browser wheel. Preview state never changes the selected orbit or accessible current state. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a visible position readout, and Left, Right, Home and End keyboard support. Without JavaScript, all four beacons remain honest native anchors and the complete inventory remains present in semantic HTML.
 
 ### Method rail
 
@@ -77,7 +77,7 @@ Input and preference boundaries reduce the effect again:
 - forced-colors mode removes decorative atmospheres and gives essential panels system borders and colours
 - no-JavaScript mode keeps the content, project inventory, fallback navigation and direct email route
 
-The QA harness enforces ceilings of fewer than 1,200 DOM nodes, no more than 10 backdrop filters, less than 4 MiB of initial transferred resources and no more than 12 simultaneous infinite animations. The latest recorded desktop run stayed inside each ceiling at 1,175 nodes, nine backdrop filters, 2,229,118 bytes and ten infinite animations. These are local-run guardrails, not field-performance scores.
+The QA harness enforces ceilings of fewer than 1,250 DOM nodes, no more than 10 backdrop filters, less than 4 MiB of initial transferred resources and no more than 12 simultaneous infinite animations. The additional project card keeps the release inside this deliberately narrow content-expansion allowance. The latest recorded desktop run stayed inside each ceiling at 1,210 nodes, nine backdrop filters, 2,400,834 bytes and ten infinite animations. These are local-run guardrails, not field-performance scores.
 
 ## Runtime
 

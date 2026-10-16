@@ -18,6 +18,7 @@ required_files=(
   assets/screenshots/proof-of-work-final.webp
   assets/screenshots/field-atlas.webp
   assets/screenshots/project-orbit-mobile.webp
+  assets/screenshots/tpts-grid-route-studio-live.jpg
   assets/screenshots/ignition-intro.webp
   assets/screenshots/cosmic-address.webp
   assets/screenshots/windhoek-transmission.webp

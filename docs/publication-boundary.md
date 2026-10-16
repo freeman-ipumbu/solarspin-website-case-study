@@ -31,7 +31,7 @@ The screenshots record the October 2026 release, including the short branded ign
 
 References to accessibility describe implementation decisions and an automated QA run. They are not a claim of formal certification.
 
-References to projects preserve their own public boundaries. In particular, the fuel-retail platform remains anonymous, controlled pilots are not described as production deployments, and protected operational data is not reproduced here.
+References to projects preserve their own public boundaries. In particular, the fuel-retail platform remains anonymous, controlled pilots are not described as production deployments, and protected operational data is not reproduced here. TPTS Grid is identified as a TPTS-owned product with a SolarSpin-built digital experience; its public destination anchors are not live OTA inventory, and the pilot does not process bookings or payments.
 
 ## Reuse
 

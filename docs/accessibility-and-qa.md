@@ -15,6 +15,8 @@ The cinematic Field Atlas release was exercised through six responsive profiles:
 
 The automated run also exercised three separate resilience modes at 390 × 844: reduced motion, forced colors and JavaScript disabled. The custom 404 page and public metadata files were checked separately.
 
+The case-study sync also checks the current Ontoko Foods client evidence image and both of its public destinations. This adds presentation evidence and link coverage without changing the live observatory's 30-project, four-orbit structure.
+
 ## Recorded results
 
 - exactly one primary page heading
@@ -32,11 +34,13 @@ The automated run also exercised three separate resilience modes at 390 × 844: 
 - essential content visible with zero horizontal overflow in forced-colors mode
 - all 30 projects, four project orbits and four native beacon destinations visible without JavaScript
 - visible fallback navigation and direct email available without JavaScript
-- 1,210 DOM nodes across the responsive profiles, below the ceiling of 1,250
+- 1,244 DOM nodes across the responsive profiles, below the ceiling of 1,250
 - at most nine active backdrop filters, below the ceiling of 10
-- 2,400,834 initial transfer bytes, below the 4 MiB ceiling
+- 2,760,101 initial transfer bytes, below the 4 MiB ceiling
 - at most ten continuing infinite animations in a standard profile, below the ceiling of 12
 - no decorative Field Atlas layer accepted pointer input
+- the Ontoko client evidence uses descriptive alternative text and contains no customer, delivery-pin, order or protected-admin data
+- the Ontoko live experience and public case-study destinations are included in external-link verification
 
 ## Interaction checks
 
@@ -89,8 +93,10 @@ Ambient loops begin only when their own section is live. Project loops are limit
 
 Content imagery carries descriptive alternative text. Decorative fields, lines and symbols are hidden from the accessibility tree.
 
+The Ontoko client-launch screenshot is content evidence, so its alternative text identifies the live order and enquiry experience rather than repeating decorative colour or layout detail. The image does not stand in for the payment boundary: adjacent text states that requests require human confirmation, cash requests are live and OneGate-hosted online methods remain activation-gated pending Ontoko's payment-capable merchant profile.
+
 ## Honest boundary
 
-These checks support the quality of this release. They do not constitute independent WCAG certification, assistive-technology coverage across every browser, a formal penetration test or a production performance guarantee. The DOM, transfer, filter and animation figures are recorded local-run diagnostics, not field-performance measurements or Lighthouse results.
+These checks support the quality of this release. They do not constitute independent WCAG certification, assistive-technology coverage across every browser, a formal penetration test or a production performance guarantee. The DOM, transfer, filter and animation figures are recorded local-run diagnostics, not field-performance measurements or Lighthouse results. The public Ontoko evidence also does not test or expose Jane's protected admin desk, customer records or inactive merchant rails.
 
 Before any major content expansion, SolarSpin should repeat keyboard testing, screen-reader spot checks, contrast verification and performance measurement against the final production payload.

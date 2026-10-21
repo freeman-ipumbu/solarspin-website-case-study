@@ -61,6 +61,14 @@ The linework is now separated into three transparent material roles:
 
 The four Project Observatory orbits reuse the Namib contours inside distinct terrain bands. Owned Universe is keyed to pulse pink, Command and Operations to field mint, Digital Experiences to orbit violet, and Research and Build Records to dune amber. The shared contour grammar keeps the atlas coherent while the accents preserve chapter identity.
 
+## Current client evidence
+
+Ontoko Foods is the current featured client system inside the existing four-orbit Project Observatory. Its evidence image uses the live ordering interface rather than a decorative mockup. The warm cream, yolk orange, farm green and photographic egg-packing detail remain recognisably Ontoko, while the surrounding SolarSpin card supplies the consistent project label, status, role and public-boundary structure.
+
+The image is framed as proof of a connected story, order and enquiry journey. It shows the pack-selection and human-confirmed request model without reproducing a customer profile, address, delivery pin, order record or protected admin state. Supporting copy carries the details that cannot safely or accurately be inferred from one screenshot: device-local return-client storage, OpenStreetMap delivery pinning, Jane's protected admin desk, the live cash-request path and the merchant activation gate for OneGate-hosted online methods.
+
+This editorial foregrounding does not add a fifth orbit or another indexed project. The visual system continues to represent 30 project stories across four orbits.
+
 ## Logo use
 
 The SolarSpin mark combines an orbital `S`, a central pulse and a wordmark. The horizontal reverse lockup is used in the dark navigation and footer. The circular badge appears inside the architecture and on social surfaces.

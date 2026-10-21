@@ -78,7 +78,7 @@ The full token logic is documented in [the visual system notes](docs/visual-syst
 
 ## The cinematic Field Atlas pass
 
-The latest enhancement makes the chapters feel like parts of one Windhoek-built field instrument while leaving the semantic story intact. The old all-purpose system-lines artwork carried its own opaque paint surface. The visible opaque panels were removed from the cinematic surfaces in favour of transparent, surface-specific linework: a cool night treatment for dark chapters, a dune treatment for the founder chapter and Namib contour lines for the light Project Observatory. Each surface can now keep its own gradient, paper tone and depth without a foreign rectangle sitting behind the content.
+The Field Atlas enhancement makes the chapters feel like parts of one Windhoek-built field instrument while leaving the semantic story intact. The old all-purpose system-lines artwork carried its own opaque paint surface. The visible opaque panels were removed from the cinematic surfaces in favour of transparent, surface-specific linework: a cool night treatment for dark chapters, a dune treatment for the founder chapter and Namib contour lines for the light Project Observatory. Each surface can now keep its own gradient, paper tone and depth without a foreign rectangle sitting behind the content.
 
 ![The Project Observatory using its Owned Universe terrain band, Namib contours and active rail atmosphere](assets/screenshots/field-atlas.webp)
 
@@ -128,6 +128,16 @@ An interactive relationship map shows SolarSpin as the engine between Freeman's 
 ![SolarSpin Project Observatory showing the Owned Universe orbit and its horizontal project rail](assets/screenshots/proof-of-work.webp)
 
 The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 30 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. Its four visual beacons are real links: hover or keyboard focus previews the chosen orbit, while click, tap or Enter commits the same destination and state as the sticky orbit navigator below. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
+
+### Current featured client system: Ontoko Foods
+
+![Ontoko Foods live order and enquiry experience featured inside the SolarSpin Project Observatory](assets/screenshots/ontoko-client-launch.png)
+
+[Ontoko Foods](https://ontoko-foods.pages.dev/) is the current featured client system. The live journey connects Jane Auala's founder story and farm record to an egg-order or general-enquiry path. A customer can choose a pack, provide delivery or collection details, pin a delivery point with OpenStreetMap and optionally keep a device-local return-client profile for a faster future request. Jane's protected admin desk supports order review, export and fulfilment without exposing operational records in this public case study. The separate [public Ontoko case study](https://github.com/freeman-ipumbu/ontoko-foods-case-study) preserves the presentation-safe project record.
+
+The human confirmation boundary is explicit. Every submission remains a request until Jane's team confirms stock, price, delivery or collection and the final total. Cash order requests are live. OneGate-hosted EFT / Pay by Bank, Google Pay and Apple Pay remain activation-gated until Ontoko has its payment-capable merchant profile and settlement configuration. The public record does not describe those online methods as active payment processing.
+
+Foregrounding Ontoko does not change the observatory inventory: the site still presents 30 project stories across four orbits.
 
 ![TPTS Grid Route Studio mapping an ordered Namibia road journey](assets/screenshots/tpts-grid-route-studio-live.jpg)
 

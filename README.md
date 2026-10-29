@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://solarspin-namibia.pages.dev/"><strong>Enter the live experience</strong></a>
+  <a href="https://www.solarspin-namibia.xyz/"><strong>Enter the live experience</strong></a>
   &nbsp;·&nbsp;
   <a href="https://freeman-ipumbu.pages.dev/">Meet the founder</a>
   &nbsp;·&nbsp;
@@ -35,11 +35,11 @@ The result is a responsive, dependency-free digital experience built around one 
 | Founder | [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) |
 | Origin | Windhoek, Namibia |
 | Launch | October 2026 |
-| Public work | 30 carefully bounded project stories across four smart orbits |
-| Experience model | Branded ignition, interactive system map, project observatory, guided contact pathway and cosmic-address finale |
-| Runtime | Static HTML, CSS and JavaScript with no framework or runtime dependency |
+| Public work | A 30-system Public Atlas across four carefully bounded orbits |
+| Experience model | Branded ignition, Solar Day and Interstellar atmospheres, interactive system map, Public Atlas, secure Gravity Table and cosmic-address finale |
+| Runtime | Static public experience plus focused Cloudflare Pages Functions for intake and health; no frontend framework dependency |
 | QA coverage | Six responsive profiles from 1440 desktop to 320 mobile, including touch and 844 × 390 landscape |
-| Live site | [solarspin-namibia.pages.dev](https://solarspin-namibia.pages.dev/) |
+| Live site | [www.solarspin-namibia.xyz](https://www.solarspin-namibia.xyz/) |
 
 ## The central idea
 
@@ -52,10 +52,10 @@ A short branded ignition opens eight chapters:
 1. **The centre:** a live orbital hero introduces the company promise.
 2. **The system:** a relationship map explains how founder, company, ventures, client work, research and internal systems connect.
 3. **The capabilities:** four disciplines turn the promise into a practical offer.
-4. **The proof:** project cards make the public work inspectable, including its real release boundaries.
+4. **The proof:** the 30-system Public Atlas makes the work inspectable, including its real release boundaries.
 5. **The method:** a five-stage rail shows how SolarSpin moves from field evidence to a system that can be handed over.
 6. **The founder:** Freeman's reason for building the company becomes part of the product story.
-7. **The invitation:** visitors identify the problem they are carrying before they make contact.
+7. **The invitation:** visitors identify what they are carrying, then turn it into a six-stage Gravity Table manifest.
 8. **The cosmic address:** the journey resolves from the Milky Way to Windhoek, then signs off with one final branded beat.
 
 ![SolarSpin's short Igniting the System opening sequence](assets/screenshots/ignition-intro.webp)
@@ -75,6 +75,12 @@ The brand system combines:
 Large editorial type carries the conviction. Monospaced labels add the precision of instrumentation. Fine orbital lines, small signals and restrained glows create depth without turning the interface into decorative science fiction.
 
 The full token logic is documented in [the visual system notes](docs/visual-system.md).
+
+## Solar Day and Interstellar Night
+
+The experience now has two complete celestial atmospheres rather than a light-mode afterthought. **Solar Day** draws from Windhoek light, pale instruments, warm gold and atmospheric blue. **Interstellar Night** keeps the original deep-space gravity, mint signals, violet orbits and pulse-pink energy.
+
+The first atmosphere follows the current Windhoek phase. A visitor can then choose a different orbit for the session. The change is announced to assistive technology, updates the browser theme colour and moves through a restrained visual handoff instead of flashing from one palette to another. The lower journey deliberately returns to space: the founder chapter becomes the horizon between daylight and the cosmic close, so the dark footer feels like transcendence rather than an unfinished theme.
 
 ## The cinematic Field Atlas pass
 
@@ -123,11 +129,11 @@ The central system responds to four selectable disciplines. The readout changes 
 
 An interactive relationship map shows SolarSpin as the engine between Freeman's public mind, owned ventures, commercial work, research and internal systems. Each node updates a shared readout rather than sending the visitor into another page.
 
-### Proof of work
+### Public Atlas / proof of work
 
 ![SolarSpin Project Observatory showing the Owned Universe orbit and its horizontal project rail](assets/screenshots/proof-of-work.webp)
 
-The portfolio is designed as evidence, not a logo wall. The Project Observatory now holds 30 public-safe stories across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. Its four visual beacons are real links: hover or keyboard focus previews the chosen orbit, while click, tap or Enter commits the same destination and state as the sticky orbit navigator below. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
+The portfolio is designed as evidence, not a logo wall. Its Project Observatory is a 30-system Public Atlas across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. The constellation is an interactive index, not oversized decoration: four visual beacons preview an orbit on hover or keyboard focus, then click, tap or Enter commits the same destination as the sticky navigator. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
 
 ### Current featured client system: Ontoko Foods
 
@@ -153,9 +159,17 @@ The wider inventory does not blur ownership. Namibia FinePay is explicitly prese
 
 The method rail turns a delivery philosophy into five inspectable decisions: Field, System, Build, Pressure and Transfer. Keyboard controls, clear active states and a live readout keep it useful beyond the animation.
 
-### Guided contact pathway
+### Gravity Table / secure Start Here intake
 
-Instead of opening with a blank form, the final interaction asks what kind of problem the visitor is carrying. The selected path shapes the prompt and the resulting email subject. The visitor arrives at contact with a clearer starting point.
+Instead of opening with a blank contact form, SolarSpin asks one useful question: **What are you carrying?** Four starting truths tune the experience around an operation, idea, live system or identity. The visitor can also carry up to three project signals out of the Public Atlas as concrete references.
+
+“Put it on the table” opens a six-stage mission dossier: the weight, the people carrying it, the pressure, what already exists, return coordinates and a final manifest the visitor can inspect before transmission. The form is deliberately human in language and conservative in collection.
+
+The live Signal Desk enforces same-site JSON, bounded request size, field validation, a honeypot, Cloudflare Turnstile, privacy-preserving rate limits and an idempotency key. Production stores the record in a dedicated Cloudflare KV archive before Resend attempts an internal notification and a branded receipt. Raw IP addresses and one-time Turnstile tokens are not retained; fingerprints are one-way and peppered; unqualified records have a fixed 120-day review-and-removal boundary. A visible email route remains beside the instrument so an upstream outage cannot make the only contact path disappear.
+
+The public System Pulse reports intake, archive, shield and courier state without revealing secrets or submission data. At the time of this record, the live endpoint reported all four components online from Cloudflare's Windhoek edge.
+
+The founder chapter contains two quieter discoveries. The **Kingsley Star** opens the legacy coordinate behind the company, and the founder's hidden **First Light Build** can route one worthy founder, maker, community project or small organisation into the same protected Gravity Table for consideration. It is a request, not a prize draw or automatic promise; selection, timing, scope and paid third-party costs remain explicit boundaries.
 
 ### Cosmic address and closing beat
 
@@ -175,6 +189,8 @@ Motion gives the experience character, but it is never required to reach the con
 - magnetic controls add tactile feedback to high-value actions
 - the header, progress signal and navigation react to position
 - the legacy seal opens a focused founder note
+- the Kingsley Star and First Light Build reward deliberate exploration without blocking the public journey
+- Solar Day and Interstellar Night shift the atmosphere while preserving the same content and control states
 - cosmic-address layers transition only when a visitor changes the selected stop
 - `prefers-reduced-motion` removes the ignition, canvas and reveal dependency
 - essential content remains available when JavaScript is disabled
@@ -225,18 +241,22 @@ This is an implementation and automated QA record, not a claim of independent WC
 ## Technical shape
 
 ```text
-Cloudflare Pages
+Cloudflare Pages + custom .xyz domain
         │
         ├── semantic HTML and structured metadata
         ├── one responsive CSS system
         ├── one progressive interaction layer
         ├── SVG and WebP visual assets
+        ├── Pages Functions: inquiry intake + public health pulse
+        ├── Cloudflare KV: time-bounded signal archive
+        ├── Turnstile: human verification
+        ├── Resend: internal transmission + visitor receipt
         ├── security and cache headers
         ├── manifest, robots and sitemap
         └── custom 404 experience
 ```
 
-The site ships without a framework, package manager or client-side router. Native browser APIs provide the interaction layer:
+The public experience ships without a frontend framework or client-side router. Native browser APIs provide the interaction layer, while the small server layer exists only for the Gravity Table and System Pulse:
 
 - `IntersectionObserver` for reveals and navigation state
 - `requestAnimationFrame` for the field, pointer response and scroll progress
@@ -259,6 +279,8 @@ That small architecture keeps the company experience portable and easy to hand o
 | Mobile navigation and orbit headings | Menu open/close passed; active orbit controls remained visible and headings reported zero overflow or fixed-header obstruction |
 | Touch and Project Observatory | 30 cards, four synchronized visual beacons and sticky orbit controls, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
 | Interactive readouts | Hero, architecture, method, pathway and six-stop cosmic address passed, including keyboard state changes |
+| Celestial themes | Automatic Windhoek phase and manual Solar Day / Interstellar selection passed without changing content availability |
+| Gravity Table | Six-stage intake, validation, manifest, email fallback and live four-component System Pulse verified; backend tests cover both KV- and D1-shaped storage paths |
 | Performance guardrails | 1,210 DOM nodes, at most nine backdrop filters, 2,400,834 initial transfer bytes and at most ten simultaneous infinite animations in the recorded run |
 | Reduced-motion mode | Essential content visible, canvas disabled and zero infinite animations continuing |
 | Forced-colors mode | Essential content visible with zero horizontal overflow |
@@ -322,7 +344,7 @@ Run the local verification:
 
 ## Built by SolarSpin Technologies
 
-This case study and the experience it documents were designed and delivered by **[SolarSpin Technologies](https://solarspin-namibia.pages.dev/)**, founded by [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) in Windhoek, Namibia.
+This case study and the experience it documents were designed and delivered by **[SolarSpin Technologies](https://www.solarspin-namibia.xyz/)**, founded by [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) in Windhoek, Namibia.
 
 The source is private. The thinking is visible. The standard is public.
 

@@ -52,7 +52,7 @@ if rg -n '—' README.md docs; then
 fi
 
 for url in \
-  'https://solarspin-namibia.pages.dev/' \
+  'https://www.solarspin-namibia.xyz/' \
   'https://freeman-ipumbu.pages.dev/' \
   'https://github.com/SolarSpin-Technologies' \
   'https://ontoko-foods.pages.dev/' \

@@ -19,6 +19,7 @@ required_files=(
   assets/screenshots/field-atlas.webp
   assets/screenshots/project-orbit-mobile.webp
   assets/screenshots/tpts-grid-route-studio-live.jpg
+  assets/screenshots/career-arc-lab.webp
   assets/screenshots/ontoko-client-launch.png
   assets/screenshots/ignition-intro.webp
   assets/screenshots/cosmic-address.webp
@@ -56,7 +57,9 @@ for url in \
   'https://freeman-ipumbu.pages.dev/' \
   'https://github.com/SolarSpin-Technologies' \
   'https://ontoko-foods.pages.dev/' \
-  'https://github.com/freeman-ipumbu/ontoko-foods-case-study'; do
+  'https://github.com/freeman-ipumbu/ontoko-foods-case-study' \
+  'https://career-arc-lab.onrender.com/' \
+  'https://github.com/freeman-ipumbu/career-arc-lab-case-study'; do
   status="$(curl -L --silent --output /dev/null --write-out '%{http_code}' --max-time 20 "$url")"
   if [[ "$status" != "200" ]]; then
     printf 'External link failed (%s): %s\n' "$status" "$url" >&2
@@ -64,4 +67,4 @@ for url in \
   fi
 done
 
-printf 'Case-study verification passed: %s required files and 5 live links.\n' "${#required_files[@]}"
+printf 'Case-study verification passed: %s required files and 7 live links.\n' "${#required_files[@]}"

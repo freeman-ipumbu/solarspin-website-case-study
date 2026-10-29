@@ -2,27 +2,29 @@
 
 ## Coverage
 
-The cinematic Field Atlas release was exercised through six responsive profiles:
+The current cinematic Field Atlas release was exercised through eight responsive profiles:
 
 | Profile | Viewport | Input | Purpose |
 | --- | ---: | --- | --- |
-| Desktop | 1440 × 1000 | Fine pointer | Full navigation, wide compositions and pointer interactions |
-| Tablet | 768 × 1024 | Fine pointer | Mid-width transitions and project layout |
+| Wide desktop | 1440 × 900 | Fine pointer | Full navigation, wide compositions and pointer interactions |
+| Desktop | 1280 × 800 | Fine pointer | Standard desktop composition and keyboard interaction |
+| Large tablet | 1024 × 1366 | Touch | Tall mid-width composition and project layout |
+| Tablet | 768 × 1024 | Touch | Compact mid-width transitions and project layout |
+| Large mobile | 430 × 932 | Touch and coarse pointer | Wide-handset composition, menu and project rails |
 | Mobile | 390 × 844 | Touch and coarse pointer | Primary mobile composition, menu and project rails |
-| Compact mobile | 360 × 800 | Touch and coarse pointer | Intermediate handset resilience |
-| Minimum mobile | 320 × 740 | Touch and coarse pointer | Narrow-screen resilience and overflow control |
+| Minimum mobile | 320 × 568 | Touch and coarse pointer | Narrow and short-screen resilience and overflow control |
 | Mobile landscape | 844 × 390 | Touch and coarse pointer | Short-height navigation, content and rail behaviour |
 
 The automated run also exercised three separate resilience modes at 390 × 844: reduced motion, forced colors and JavaScript disabled. The custom 404 page and public metadata files were checked separately.
 
-The case-study sync also checks the current Ontoko Foods client evidence image and both of its public destinations. This adds presentation evidence and link coverage without changing the live observatory's 30-project, four-orbit structure.
+The case-study sync checks the current Ontoko Foods client evidence and the authentic Career Arc Lab release artwork, plus their public destinations. Career Arc becomes the 31st indexed story and the fourth Research and Build record without changing the four-orbit structure.
 
 ## Recorded results
 
 - exactly one primary page heading
-- 30 public project cards present across four semantic orbits
+- 31 public project cards present across four semantic orbits
 - four native-link Observatory beacons with 44-pixel targets, synchronized committed state and separate non-mutating preview state
-- zero horizontal overflow in all six responsive profiles
+- zero horizontal overflow in all eight responsive profiles
 - touch project rails moved horizontally while vertical page scrolling remained available
 - all inspected images complete with natural dimensions
 - no nameless buttons
@@ -32,7 +34,7 @@ The case-study sync also checks the current Ontoko Foods client evidence image a
 - no project-orbit or primary section heading overflow in any profile
 - no essential content hidden, no canvas and zero continuing infinite animations in reduced-motion mode
 - essential content visible with zero horizontal overflow in forced-colors mode
-- all 30 projects, four project orbits and four native beacon destinations visible without JavaScript
+- all 31 projects, four project orbits and four native beacon destinations visible without JavaScript
 - visible fallback navigation and direct email available without JavaScript
 - 1,244 DOM nodes across the responsive profiles, below the ceiling of 1,250
 - at most nine active backdrop filters, below the ceiling of 10
@@ -41,6 +43,7 @@ The case-study sync also checks the current Ontoko Foods client evidence image a
 - no decorative Field Atlas layer accepted pointer input
 - the Ontoko client evidence uses descriptive alternative text and contains no customer, delivery-pin, order or protected-admin data
 - the Ontoko live experience and public case-study destinations are included in external-link verification
+- the Career Arc live pilot and public case-study destinations are included in external-link verification
 
 ## Interaction checks
 

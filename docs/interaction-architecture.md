@@ -12,7 +12,7 @@ The branded ignition is an optional prelude, not a loading gate. It is hidden fr
 
 The fixed header reflects the active section and collapses into a full-screen orbit menu on smaller viewports. The mobile menu declares its expanded state, closes on Escape and restores page scrolling when dismissed.
 
-The Project Observatory has two synchronized local navigation surfaces. Four native-link beacons inside the command deck preview an orbit on hover or keyboard focus and commit it on click, tap or Enter. The sticky orbit controls remain available throughout the inventory. When either surface selects an orbit, the active control scrolls fully into view and its heading lands below the fixed header and sticky controls. Automated geometry checks cover the beacons, active control and every project-orbit heading across all six responsive profiles.
+The Project Observatory has two synchronized local navigation surfaces. Four native-link beacons inside the command deck preview an orbit on hover or keyboard focus and commit it on click, tap or Enter. The sticky orbit controls remain available throughout the inventory. When either surface selects an orbit, the active control scrolls fully into view and its heading lands below the fixed header and sticky controls. Automated geometry checks cover the beacons, active control and every project-orbit heading across all eight responsive profiles.
 
 ### Hero system
 
@@ -30,7 +30,7 @@ Pointer-capable devices receive a restrained tilt driven by local cursor positio
 
 ### Project Observatory
 
-Thirty public-safe project stories are organised into four semantic orbits. The visual beacons and sticky orbit navigator share one committed state and deep-link to the same chapters without taking over the browser wheel. Preview state never changes the selected orbit or accessible current state. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a visible position readout, and Left, Right, Home and End keyboard support. Without JavaScript, all four beacons remain honest native anchors and the complete inventory remains present in semantic HTML.
+Thirty-one public-safe project stories are organised into four semantic orbits. The visual beacons and sticky orbit navigator share one committed state and deep-link to the same chapters without taking over the browser wheel. Preview state never changes the selected orbit or accessible current state. Every chapter exposes a native horizontal rail with scroll snapping, previous and next controls, a visible position readout, and Left, Right, Home and End keyboard support. Without JavaScript, all four beacons remain honest native anchors and the complete inventory remains present in semantic HTML.
 
 ### Method rail
 

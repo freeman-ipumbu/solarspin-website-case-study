@@ -67,7 +67,7 @@ Ontoko Foods is the current featured client system inside the existing four-orbi
 
 The image is framed as proof of a connected story, order and enquiry journey. It shows the pack-selection and human-confirmed request model without reproducing a customer profile, address, delivery pin, order record or protected admin state. Supporting copy carries the details that cannot safely or accurately be inferred from one screenshot: device-local return-client storage, OpenStreetMap delivery pinning, Jane's protected admin desk, the live cash-request path and the merchant activation gate for OneGate-hosted online methods.
 
-This editorial foregrounding does not add a fifth orbit or another indexed project. The visual system continues to represent 30 project stories across four orbits.
+The Career Arc Lab addition expands the Research and Build orbit from three records to four without inventing a fifth orbit. Its authentic pilot artwork enters the same evidence frame as the other cards, while adjacent copy and links preserve the working-pilot, directional-fit and no-guarantee boundaries. The visual system now represents 31 project stories across four orbits.
 
 ## Logo use
 

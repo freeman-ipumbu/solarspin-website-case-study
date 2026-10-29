@@ -35,10 +35,10 @@ The result is a responsive, dependency-free digital experience built around one 
 | Founder | [Freeman Paul Ipumbu](https://freeman-ipumbu.pages.dev/) |
 | Origin | Windhoek, Namibia |
 | Launch | October 2026 |
-| Public work | A 30-system Public Atlas across four carefully bounded orbits |
+| Public work | A 31-system Public Atlas across four carefully bounded orbits |
 | Experience model | Branded ignition, Solar Day and Interstellar atmospheres, interactive system map, Public Atlas, secure Gravity Table and cosmic-address finale |
 | Runtime | Static public experience plus focused Cloudflare Pages Functions for intake and health; no frontend framework dependency |
-| QA coverage | Six responsive profiles from 1440 desktop to 320 mobile, including touch and 844 × 390 landscape |
+| QA coverage | Eight responsive profiles from 1440 desktop to 320 mobile, including two tablets and 844 × 390 landscape |
 | Live site | [www.solarspin-namibia.xyz](https://www.solarspin-namibia.xyz/) |
 
 ## The central idea
@@ -52,7 +52,7 @@ A short branded ignition opens eight chapters:
 1. **The centre:** a live orbital hero introduces the company promise.
 2. **The system:** a relationship map explains how founder, company, ventures, client work, research and internal systems connect.
 3. **The capabilities:** four disciplines turn the promise into a practical offer.
-4. **The proof:** the 30-system Public Atlas makes the work inspectable, including its real release boundaries.
+4. **The proof:** the 31-system Public Atlas makes the work inspectable, including its real release boundaries.
 5. **The method:** a five-stage rail shows how SolarSpin moves from field evidence to a system that can be handed over.
 6. **The founder:** Freeman's reason for building the company becomes part of the product story.
 7. **The invitation:** visitors identify what they are carrying, then turn it into a six-stage Gravity Table manifest.
@@ -109,7 +109,7 @@ The address resolves into a live Windhoek transmission: current Central Africa T
 
 The final panel does not introduce another task. It simply lands the journey with the line: **“You’ve now had a SolarSpin Experience.”**
 
-Verification grew with the visual system. The automated record now covers six responsive profiles: 1440 desktop, 768 tablet, touch mobile at 390, 360 and 320 pixels, and an 844 × 390 touch landscape run. Separate checks confirm horizontal rail movement without blocking vertical touch scrolling, zero continuing infinite animations under reduced motion, visible essentials and zero overflow in forced-colors mode, and the full 30-project/four-orbit experience with fallback navigation and email when JavaScript is unavailable.
+Verification grew with the visual system. The automated record now covers eight responsive profiles: 1440 and 1280 desktop, 1024 and 768 tablet, touch mobile at 430, 390 and 320 pixels, and an 844 × 390 touch landscape run. Separate checks confirm horizontal rail movement without blocking vertical touch scrolling, zero continuing infinite animations under reduced motion, visible essentials and zero overflow in forced-colors mode, and the full 31-project/four-orbit experience with fallback navigation and email when JavaScript is unavailable.
 
 ## The interface behaves like the company
 
@@ -133,7 +133,7 @@ An interactive relationship map shows SolarSpin as the engine between Freeman's 
 
 ![SolarSpin Project Observatory showing the Owned Universe orbit and its horizontal project rail](assets/screenshots/proof-of-work.webp)
 
-The portfolio is designed as evidence, not a logo wall. Its Project Observatory is a 30-system Public Atlas across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. The constellation is an interactive index, not oversized decoration: four visual beacons preview an orbit on hover or keyboard focus, then click, tap or Enter commits the same destination as the sticky navigator. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
+The portfolio is designed as evidence, not a logo wall. Its Project Observatory is a 31-system Public Atlas across Owned Universe, Command and Operations, Digital Experiences, and Research and Build Records. The constellation is an interactive index, not oversized decoration: four visual beacons preview an orbit on hover or keyboard focus, then click, tap or Enter commits the same destination as the sticky navigator. Each chapter uses a horizontally snapping rail with visible progress, arrow controls and native touch or trackpad scrolling. Every card records the role, status, attribution and public boundary of the work.
 
 ### Current featured client system: Ontoko Foods
 
@@ -143,11 +143,15 @@ The portfolio is designed as evidence, not a logo wall. Its Project Observatory 
 
 The human confirmation boundary is explicit. Every submission remains a request until Jane's team confirms stock, price, delivery or collection and the final total. Cash order requests are live. OneGate-hosted EFT / Pay by Bank, Google Pay and Apple Pay remain activation-gated until Ontoko has its payment-capable merchant profile and settlement configuration. The public record does not describe those online methods as active payment processing.
 
-Foregrounding Ontoko does not change the observatory inventory: the site still presents 30 project stories across four orbits.
+Foregrounding Ontoko does not change the observatory inventory: the site now presents 31 project stories across four orbits.
 
 ![TPTS Grid Route Studio mapping an ordered Namibia road journey](assets/screenshots/tpts-grid-route-studio-live.jpg)
 
 The 30th indexed story is TPTS Grid, the 12th card in Command and Operations. TPTS Financial Technology Group owns the product, while SolarSpin built the digital experience. The public scope is intentionally precise: Namibia-first destination discovery, property-owner claim and onboarding, and a traveller-owned Route Studio. Destination anchors are not presented as live OTA room inventory, and the pilot does not process bookings or payments.
+
+![Career Arc Lab explainable career-route and proof-sprint experience](assets/screenshots/career-arc-lab.webp)
+
+The 31st indexed story is [Career Arc Lab](https://career-arc-lab.onrender.com/), the fourth Research and Build record. The working pilot turns a career ambition into three explainable routes, one recommended 30-day proof sprint and a bounded practitioner-review path. Fit scores are directional, not promises; discovery, demand and transaction gates remain targets to be measured rather than outcomes already achieved. Its separate [public Career Arc Lab case study](https://github.com/freeman-ipumbu/career-arc-lab-case-study) preserves the portfolio-safe product record without publishing source, participant data or unverified pilot evidence.
 
 ![SolarSpin Command and Operations orbit with the anonymous fuel-retail platform and TPTS-attributed FinePay work](assets/screenshots/proof-of-work-final.webp)
 
@@ -215,7 +219,7 @@ The mobile experience is recomposed around a vertical rhythm. The hero separates
 
 The Project Observatory fix is explicit: selecting an orbit scrolls its active control into view, places the orbit heading below the fixed navigation stack and keeps the heading inside its column at every tested width. The mobile menu still closes on Escape and restores page scrolling.
 
-The result was checked for horizontal overflow across all six responsive profiles. Every recorded run, including 320-pixel mobile and 844 × 390 landscape, reported zero overflow.
+The result was checked for horizontal overflow across all eight responsive profiles. Every recorded run, including 320-pixel mobile and 844 × 390 landscape, reported zero overflow.
 
 ## Accessibility and resilience
 
@@ -273,18 +277,18 @@ That small architecture keeps the company experience portable and easy to hand o
 | Local assets | Passed |
 | Console and page errors | None in the recorded QA run |
 | Missing images | None in the recorded QA run |
-| Responsive profiles | Six passed: 1440, 768, 390, 360, 320 and 844 × 390 landscape |
-| Horizontal overflow | Zero in all six responsive profiles, forced-colors mode and no-JavaScript mode |
+| Responsive profiles | Eight passed: 1440, 1280, 1024, 768, 430, 390, 320 and 844 × 390 landscape |
+| Horizontal overflow | Zero in all eight responsive profiles, forced-colors mode and no-JavaScript mode |
 | Intro release | Hidden, transparent and pointer-inert after the short ignition; skipped for reduced motion and no JavaScript |
 | Mobile navigation and orbit headings | Menu open/close passed; active orbit controls remained visible and headings reported zero overflow or fixed-header obstruction |
-| Touch and Project Observatory | 30 cards, four synchronized visual beacons and sticky orbit controls, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
+| Touch and Project Observatory | 31 cards, four synchronized visual beacons and sticky orbit controls, deep links, rail controls, horizontal touch movement and vertical page scrolling passed |
 | Interactive readouts | Hero, architecture, method, pathway and six-stop cosmic address passed, including keyboard state changes |
 | Celestial themes | Automatic Windhoek phase and manual Solar Day / Interstellar selection passed without changing content availability |
 | Gravity Table | Six-stage intake, validation, manifest, email fallback and live four-component System Pulse verified; backend tests cover both KV- and D1-shaped storage paths |
 | Performance guardrails | 1,210 DOM nodes, at most nine backdrop filters, 2,400,834 initial transfer bytes and at most ten simultaneous infinite animations in the recorded run |
 | Reduced-motion mode | Essential content visible, canvas disabled and zero infinite animations continuing |
 | Forced-colors mode | Essential content visible with zero horizontal overflow |
-| JavaScript-disabled mode | 30 projects and four orbits visible, with fallback navigation and direct email |
+| JavaScript-disabled mode | 31 projects and four orbits visible, with fallback navigation and direct email |
 | Custom 404 | Passed |
 | Production homepage | Publicly reachable |
 
@@ -327,6 +331,7 @@ This repository is deliberately separate from the private production repository.
 - [`assets/screenshots/field-atlas.webp`](assets/screenshots/field-atlas.webp) records the new orbit terrain treatment.
 - [`assets/screenshots/project-orbit-mobile.webp`](assets/screenshots/project-orbit-mobile.webp) records the corrected mobile orbit landing and navigation state.
 - [`assets/screenshots/tpts-grid-route-studio-live.jpg`](assets/screenshots/tpts-grid-route-studio-live.jpg) records the TPTS Grid Route Studio public pilot.
+- [`assets/screenshots/career-arc-lab.webp`](assets/screenshots/career-arc-lab.webp) records the authentic Career Arc Lab pilot artwork used by the live Public Atlas.
 - [`assets/screenshots/cosmic-address.webp`](assets/screenshots/cosmic-address.webp) records the Milky Way-to-Windhoek address sequence.
 - [`assets/screenshots/windhoek-transmission.webp`](assets/screenshots/windhoek-transmission.webp) records the live-location footer treatment.
 - [`assets/screenshots/experience-finale.webp`](assets/screenshots/experience-finale.webp) records the final branded sign-off.
